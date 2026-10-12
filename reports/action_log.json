@@ -1,0 +1,71 @@
+[
+  {
+    "tool": "inspect_data",
+    "status": "success",
+    "result": {
+      "row_count": 12,
+      "columns": [
+        "date",
+        "order_id",
+        "category",
+        "product",
+        "quantity",
+        "revenue",
+        "region"
+      ],
+      "date_range": {
+        "start": "2026-01-03",
+        "end": "2026-03-25"
+      },
+      "quality_issue_count": 0,
+      "quality_issues": []
+    },
+    "mode": "offline"
+  },
+  {
+    "tool": "calculate_kpis",
+    "status": "success",
+    "result": {
+      "row_count": 12,
+      "total_revenue": 226300.0,
+      "average_revenue_per_row": 18858.33,
+      "date_range": {
+        "start": "2026-01-03",
+        "end": "2026-03-25"
+      },
+      "calculation": "Revenue values were summed from the CSV; average is total revenue divided by row count."
+    },
+    "mode": "offline"
+  },
+  {
+    "tool": "compare_periods",
+    "status": "success",
+    "result": {
+      "earliest_month": "2026-01",
+      "earliest_revenue": 74700.0,
+      "latest_month": "2026-03",
+      "latest_revenue": 66200.0,
+      "change": -8500.0,
+      "percentage_change": -11.38,
+      "monthly_revenue": {
+        "2026-01": 74700.0,
+        "2026-02": 85400.0,
+        "2026-03": 66200.0
+      },
+      "method": "Compares the earliest and latest month present in the dataset; it does not prove why a change occurred."
+    },
+    "mode": "offline"
+  },
+  {
+    "tool": "revenue_by_category",
+    "status": "success",
+    "result": {
+      "revenue_by_category": {
+        "Computers": 155000.0,
+        "Monitors": 56000.0,
+        "Accessories": 15300.0
+      }
+    },
+    "mode": "offline"
+  }
+]

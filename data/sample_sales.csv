@@ -1,0 +1,13 @@
+date,order_id,category,product,quantity,revenue,region
+2026-01-03,O1001,Accessories,Mouse,2,1200,South
+2026-01-08,O1002,Computers,Laptop,1,55000,South
+2026-01-15,O1003,Accessories,Keyboard,3,4500,East
+2026-01-22,O1004,Monitors,Monitor,1,14000,West
+2026-02-02,O1005,Accessories,Mouse,4,2400,South
+2026-02-09,O1006,Computers,Laptop,1,52000,South
+2026-02-16,O1007,Accessories,Keyboard,2,3000,East
+2026-02-23,O1008,Monitors,Monitor,2,28000,West
+2026-03-04,O1009,Accessories,Mouse,2,1200,South
+2026-03-11,O1010,Computers,Laptop,1,48000,South
+2026-03-17,O1011,Accessories,Keyboard,2,3000,East
+2026-03-25,O1012,Monitors,Monitor,1,14000,West
